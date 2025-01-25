@@ -1,8 +1,6 @@
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
-
-
 public class Hangman {
     public static void main(String[] args) {
         
@@ -615,7 +613,7 @@ public class Hangman {
                 }
             }
 
-            System.out.println("You got " + (statcount * 1.0 / wordRepArr.length + "% of the word."));
+            System.out.println("You got " + (statcount * 100.0 / wordRepArr.length + "% of the word."));
             System.out.println("");
             
 
